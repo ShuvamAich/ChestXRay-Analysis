@@ -49,21 +49,9 @@ COVID-19 is an extremely contagious disease caused by severe acute respiratory s
 
 2. OBJECTIVE
 
-Deep neural network models have conventionally been designed, and experiments were performed upon them by human experts in a continuing trial-and-error method. This process demands enormous time, know-how, and resources .We are proposing a deep learning-based model that can quickly prognose the presence of Pneumonia. The main objective of this study is focused on building a classification model that will bring down the false negatives (people with Pneumonia but predicted otherwise)to a substantially low number along a model with high evaluation metrics (precision, accuracy, sensitivity and specificity). As this is a prognosis model, we can accommodate false positives (people not having Pneumonia but predicted otherwise) to a small extent.
+Deep neural network models have conventionally been designed, and experiments were performed upon them by human experts in a continuing trial-and-error method. This process demands enormous time, know-how, and resources .We are proposing a deep learning-based model that can quickly prognose the presence of Pneumonia. The main objective of this study is focused on building a classification model that will bring down the false negatives (people with Pneumonia but predicted otherwise)to a substantially low number along a model with high evaluation metrics (precision, accuracy, sensitivity and specificity). As this is a prognosis model, we can accommodate false positives (people not having Pneumonia but predicted otherwise) to a small ex
 
-
-
-
-
-3. PROPOSED ARCHITECTURE
-
-
-                   
-                       
-
-
-
-4. PROPOSED ALGORITHM
+3. PROPOSED ALGORITHM
 
 Step 1: 
 We have collected our dataset from Chest X-Ray Images (Pneumonia) | Kaggle. Our dataset consists of a total of 5856 Chest X-Ray images which has been splitted approximately in a 90-10% ratio. The original dataset consists of three main folders (i.e., training, testing, and validation folders) and two subfolders containing pneumonia (P) and normal (N) chest X-ray images, respectively. Only the frontal Chest-X Ray images have been chosen for our model.
